@@ -1,4 +1,6 @@
-# puppeteer-scalingo-buildpack
+# [DEPRECATED] Buildpack: Puppeteer
+
+The Puppeteer buildpack is deprecated. This is replaced with the use of the [APT buildpack](https://github.com/Scalingo/apt-buildpack/). Please refer to the [Scalingo documentation](https://doc.scalingo.com/languages/nodejs/puppeteer) for a more future proof way to install Puppeteer.
 
 Installs dependencies needed in order to run puppeteer on Scalingo. Be sure to include `{ args: ['--no-sandbox'] }` in your call to `puppeteer.launch`
 
